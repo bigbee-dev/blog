@@ -18,6 +18,12 @@ enableEmoji     = true
   tag      = "tags"
 
 [params]
+  # Metadata mostly used in document's head
+  # 
+  description = "Embrace Simplicity"
+
+  # Home subtitle of the index page.
+  #
   homeSubtitle = "Embrace Simplicity"
 
   [params.logo]
