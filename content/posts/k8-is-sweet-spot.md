@@ -1,7 +1,6 @@
 ---
 title: "Managed Kubernetes is the sweet spot between VM and Serverless"
 date: 2021-08-09T15:08:27+06:30
-draft: true
 ---
 
 When we are developing an app or SaaS product, we have to consider, where we deploy our services, how to release updates and make sure our services are available to customers. In this article, we will examine the pros and cons of all major cloud computing resources: Virtual Machine, Serverless, and Managed Kubernetes.
