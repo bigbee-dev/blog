@@ -1,3 +1,53 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://blog.bigbee.dev/'
+title = 'Soe Moe Tun Lwin'
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Soe Moe Tun Lwin"
+
+[taxonomies]
+  category = "blog"
+  tag      = "tags"
+
+[params]
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+    logoCursorDisabled = true
+  
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/jittuu"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:sm@bigbee.dev"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/jittuu"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/soemoetunlwin/"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://stackoverflow.com/users/102940/soe-moe"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "https://www.bigbee.dev"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
